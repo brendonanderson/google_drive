@@ -1,0 +1,26 @@
+name: google_drive
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  googleapis: ^0.56.1
+  googleapis_auth: ^0.2.12
+  url_launcher: ^5.7.10
+  flutter_secure_storage: ^3.3.5
+  flutter_web_auth: ^0.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
